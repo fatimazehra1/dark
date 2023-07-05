@@ -1661,21 +1661,22 @@ height: 235px;
         width: 50% !important;
     }
     .text .head h1{
-        font-size: 30px ;
-
+        font-size: 25px;
+    padding-top: 40px;
+    padding-bottom: 10px;
     }
     .section-3{
         display: inline-block;
     }
     .section-3 .cards{
-        margin-top: -40%;
+        margin-top: -35%;
     }
     .section-3 .cards .card:nth-child(2){
         display: none ;
     }
     .section-3 .cards .card{
         margin: 11px;
-        width: 11rem !important;
+        width: 167px !important;
         height: 41vh !important;
     }
     .section-3 .cards .card.one{
@@ -1699,12 +1700,11 @@ height: 235px;
         margin: 30px;
     }
     .section-3 .dec .left img{
-        width: 365px;
+        width: 340px;
     }
     .dec .right .head{
         padding-top: 37px;
         text-align: center;
-        justify-content: center;
         display: grid;
         padding-bottom: 0px;
 
@@ -1731,22 +1731,109 @@ height: 235px;
         width: 70px;
         height: 70px;
         font-size: 0px;
-        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;    }
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;    
+}
+.image-section .hidden:nth-of-type(1){
+    display: none;
+}
+ .section-4 .image-section .right img{
+    width: 340px;
+ }
+.section-4 .textarea{
+    display: grid;
+    padding: 32px;
+    padding-bottom: 0px;
+}
+.desc p{
+    width: 100%;
+}
+.section-4{
+    height: 120vh;
 }
 
+.type1{
+    left: 0;
+    position: absolute;
+    margin-top: 0px;
+    text-align: left;
+    margin-left: 26px;
+    padding-left: 26px;
+    width: 243px;
+    height: 8vh;
+}
 
+.services h1{
+    font-size: 80px !important;
+}
+.container2{
+    height: 50vh;
+    grid-template-rows: 0rem calc(100vh - 58rem);
+}
+.sub-sec h1{
+    padding: 18px;
+    font-size: 19px;
+}
+.text {
+    padding: 32px;
+}
 
+.inn-card{
+    flex-direction: column;
+}
+.about-us{
+    padding: 32px !important;
+}
+.about-us .inn-sec .left img{
+    width: -webkit-fill-available;
+}
+.about-us .inn-sec{
+    flex-direction: column;
+}
+.about-us .right{
+    padding: 27px;
+    text-align: center;
+    padding-top: 53px;
+    height: 37vh;
+}
 
+.about-us .type1{
+    text-align: center;
+    margin-left: 76px;
+    padding-left: 0px;
+}
+.about-us .right h1{
+    font-size: 36px;
+    line-height: 38px;
+    padding-bottom: 31px;
+}
+.about-us .right p{
+    font-size: 20px;
+}
+.analytics .textarea{
+    flex-direction: column;
+    padding: 32px;
+}
+.analytics .text{
+    padding: 0px;
+    padding-bottom: 20px;
+}
+.testimonials .inn-sec{
+    flex-direction: column;
+}
+.testimonials .inn-sec img{
+    display: none;
+}
+.testimonials .left{
+    padding: 32px;
+}
+.testimonials .text{
+    padding: 0px;
+}
+.testimonials .left p{
+    font-size: 17px;
+}
 
-
-
-
-
-
-
-
-
-
+}
 
 
 
