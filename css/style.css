@@ -1832,6 +1832,9 @@ height: 235px;
 .testimonials .left p{
     font-size: 17px;
 }
+.section-4 .text , .section-2 .text {
+    padding: 0px;
+}
 
 }
 
