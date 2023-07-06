@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function() {
         contents[manual].classList.add("active");
 
         // Update background image dynamically based on the current slide
-        const backgroundImage = `url(../../assets/image/${manual + 1}.jpg)`;
+        const backgroundImage = `url(./image/${manual + 1}.jpg)`;
         homeSection.style.backgroundImage = backgroundImage;
     };
 
