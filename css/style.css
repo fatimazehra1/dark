@@ -1842,7 +1842,10 @@ height: 235px;
     padding: 32px;
     padding-bottom: 0px;
 }
+.analytics{
+    padding-top: 30px !important;
 
+}
 
 }
 
@@ -1964,6 +1967,15 @@ height: 235px;
 
 }
 @media screen and (max-width:375px) {
+    .about-us .right p{
+        line-height: 33px;
+    }
+    .about-us .right h1{
+        line-height: 28px;
+    }
+    .about-us .type1{
+        width: 220px;
+    }
     .home .content h1 span{
         font-size: 34px;
     }
@@ -2021,7 +2033,9 @@ height: 235px;
 }
 
 
-
+.container3 .box{
+    width: 100%;
+}
 
 
 
