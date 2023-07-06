@@ -1670,6 +1670,7 @@ height: 235px;
     }
     .section-3 .cards{
         margin-top: -35%;
+        width: 100%;
     }
     .section-3 .cards .card:nth-child(2){
         display: none ;
@@ -1700,7 +1701,7 @@ height: 235px;
         margin: 30px;
     }
     .section-3 .dec .left img{
-        width: 340px;
+        width: 100%;
     }
     .dec .right .head{
         padding-top: 37px;
@@ -1839,7 +1840,7 @@ height: 235px;
 
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:350px) {
     header .contact-us{
         height:-webkit-fill-available;
         padding: 15px;
@@ -1897,7 +1898,7 @@ height: 235px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .section-3 .dec .left img {
-    width: 262px;
+    width: 100%;
 }
 .dec .right .head{
     padding: 12px;
