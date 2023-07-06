@@ -17,7 +17,9 @@
     font-family: 'Work Sans', sans-serif;
     
 }
-
+main{
+    overflow-x: hidden;
+}
 section {
     padding: 100px !important;
 }
@@ -1840,7 +1842,7 @@ height: 235px;
 
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:320px) {
     header .contact-us{
         height:-webkit-fill-available;
         padding: 15px;
@@ -1932,7 +1934,71 @@ height: 235px;
 .section-4{
     height: 100vh;
 }
+
 }
+@media screen and (max-width:375px) {
+    .home .content h1 span{
+        font-size: 34px;
+    }
+    .home .content h1{
+        font-size: 15px;
+    }
+    header .contact-us{
+        height:-webkit-fill-available;
+        padding: 25px;
+        padding-top: 30px;
+    }
+    header .contact-us a{
+        font-size: 20px;
+        width: 87px;
+        text-align: center;
+        display: block;
+        line-height: 20px;
+    }
+    .home .content h1 span{
+        font-size: 29px;
+    display: block;
+    }
+    .home .content h1{
+        line-height: 29px !important;
+        font-size: 15px;
+        letter-spacing: 5px;
+    }
+    .section-3 .cards .card{
+        width: 147px !important;
+    }
+    .section-3 .cards .body {
+        padding: 9px;
+    }
+    .button{
+        margin-right: 20px;
+        margin-top: 85px;
+    }
+    .dec .right .head{
+        padding: 19px;
+        padding-bottom: 0px;
+    }
+    .dec .right .text p {
+        padding: 17px;
+        font-size: 15px;
+
+}
+
+.section-4 .image-section .right img {
+    width: 312px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
