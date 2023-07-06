@@ -1836,8 +1836,102 @@ height: 235px;
     padding: 0px;
 }
 
+
 }
 
+@media screen and (max-width:320px) {
+    header .contact-us{
+        height:-webkit-fill-available;
+        padding: 15px;
+        padding-top: 33px;
+    }
+    header .contact-us a{
+        font-size: 20px;
+        width: 87px;
+        text-align: center;
+        display: block;
+        line-height: 17px;
+    }
+    .home .content h1 span{
+        font-size: 29px;
+    display: block;
+    }
+    .home .content h1{
+        line-height: 29px !important;
+        font-size: 15px;
+        letter-spacing: 5px;
+    }
+    .home .content p{
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .section-3 .cards .card{
+        width: 129px !important;
+        margin-left: 16px !important;
+        height: 32vh !important;
+    }
+    .section-3 .cards{
+        height: 36vh;
+    }
+    .text .head h1{
+        padding-top: 18px;
+    }
+    .section-2{
+        height: 33vh;
+    }
+    .section-3 .cards .card h1{
+        font-size: 15px;
+    }
+    .section-3 .cards .card p {
+        font-size: 12px;
+        width: 115%;
+    }
+    .section-3 .cards .body{
+        padding: 6px;
+    }
+    .button {
+    margin-top: 72px;
+    width: 56px;
+    height: 56px;
+    font-size: 0px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.section-3 .dec .left img {
+    width: 262px;
+}
+.dec .right .head{
+    padding: 12px;
+    padding-bottom: 0px;
+}
+.dec .right .head h1{
+    font-size: 18px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+.dec .right  .text p{
+    padding: 4px;
+    font-size: 15px;
+    text-align: center;
+}
+.section-2 , .textarea{
+    padding: 18px !important;
+    padding-bottom: 0px !important;
+}
+.desc p{
+    font-size: 15px;
+}
+.section-4 .image-section .right img {
+    width: 279px;
+    padding-top: 0px;
+}
+.section-4 .image-section{
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+}
+.section-4{
+    height: 100vh;
+}
+}
 
 
 
